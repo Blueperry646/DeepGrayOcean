@@ -156,6 +156,23 @@ window.addEventListener('load', () => {
     }
 });
 
+const privacyCard = document.getElementById('privacy-card');
+
 function closePrivacyPolicy() {
     document.getElementById('privacy-policy').style.display = 'none';
+    privacyCard.style.display = 'none';
 }
+
+function hamburgerCard() {
+    var hamburger = document.querySelector(".header-navbar");
+
+    // Alterna a classe 'visible' para mostrar ou esconder o menu
+    if (hamburger.classList.contains("visible")) {
+        // Se o menu estiver visível, esconde-o
+        hamburger.classList.remove("visible");
+    } else {
+        // Caso contrário, exibe o menu
+        hamburger.classList.add("visible");
+    }
+}
+
