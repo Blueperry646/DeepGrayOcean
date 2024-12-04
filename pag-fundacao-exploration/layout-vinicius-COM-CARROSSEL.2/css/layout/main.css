@@ -1,0 +1,240 @@
+#main-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.capa {
+    height: 965px;
+    background-image: url(./fundo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+#main-banner-img {
+    position: relative;
+    width: 425px;
+    /* margin-top: 60%; */
+    height: auto;
+    z-index: 0;
+    position: absolute;
+    top: 70.5%;
+    left: 320px;
+    z-index: 0;
+}
+
+.capa p {
+    position: absolute;
+    top: 87.8%;
+    left: 1300px;
+    width: 540px;
+    text-align: right;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#main-text {
+    max-width: 700px;
+    margin-left: 28%;
+    line-height: 1.6;
+    padding: 0 20px;
+    text-align: end;
+    font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    padding-right: 0;  
+}
+
+.midias {
+    position: absolute;
+    bottom: 20px; /* Ajuste a distância do rodapé */
+    right: 20px;  /* Ajuste para o lado direito */
+    display: flex;
+    gap: 10px;
+    z-index: 1; 
+}
+
+.barra {
+    background-color: #504c3a;
+    width: 100%;
+    height: 50px;
+}
+
+.preservation {
+    margin-top: 5px;
+    display: flex;
+    gap: 100px;
+}
+
+#preservation-text {
+    max-width: 800px;
+    margin-top: 100px;
+    border-left: 5px solid white;
+    padding-left: 80px;
+    height: 300px;
+
+}
+
+#preservation-image {
+    width: 500px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.container-paragrafo-text2 {
+    height: 250px;
+    background-color: #303030;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; 
+    /* border-radius: 40px; */
+    /* border-top-right-radius: 600px;  Borda superior direita arredondada
+    border-bottom-right-radius: 600px; */
+    max-width: 100%;
+}
+
+#paragrafo-text2 {
+    max-width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+/*div */
+
+.projetos {
+    padding: 75px;
+}
+
+.base {
+    height: 450px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+
+.projetosDiv {
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projetosDiv p {
+    font-size: 15px;
+}
+
+#moreInformations {
+    color: #cfc3a7;
+}
+
+#moreInformations:hover {
+    transition: 0.7s ease-in-out;
+    color: black;
+}
+
+.projetosDiv1 {
+    background-image: url(../imgmaria.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.projetosDiv2 {
+    background-image: url(../imgcoastal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.projetosDiv3 {
+    background-image: url(../imgfundação.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.privacy-card {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    padding: 15px;
+    background-color:  #202020;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000;
+}
+
+.privacy-card p {
+    font-size: 14px;
+    color: white;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+.privacy-card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.privacy-card a:hover {
+    color: #867b61;
+}
+
+.privacy-card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.privacy-card button:hover {
+    background-color: #867b61;
+}
+
+#privacy-policy {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    height: 70%; 
+    background-color: #303030;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+.privacy-policy-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+
+

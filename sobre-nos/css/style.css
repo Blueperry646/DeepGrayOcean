@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(223, 223, 223);
+    font-size: 16px;
+}
+
+.tittle-container {
+    width: 100%;
+    height: 275px;
+    background-color: #292929;
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 45px;
+    /* padding-inline: 10px; */
+}
+
+.tittle-one {
+    display: flex;
+    align-items: center;
+}
+
+.tittle img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.tittle h1 {
+    font-size: 50px;
+}
+
+.tittle p {
+    max-width: 600px;
+    text-align: start;
+    margin-top: -15px;
+}
+
+.container-story {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.story {
+    max-width: 600px;
+}
+
+.story h1 {
+    font-size: 30px;
+}
+
+#trabalhadores img {
+    width: 450px;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+
+#section-two {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.separar {
+    /* max-width: 580px; */
+    display: flex;
+    align-items: baseline;
+    /* flex-direction: column; */
+    /* margin-inline: auto; */
+    /* padding: 15px; */
+}
+
+.container-contatos {
+    max-width: 1200px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-inline: auto; */
+    /* padding: 15px; */
+    margin-top: 150px;
+    left: 0;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    max-width: 600px;
+    height: 670px;
+    text-align: center;
+    border-radius: 10px;
+    width: 590px;
+}
+
+#tittle-contatos {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.contatos p {
+    max-width: 550px;
+}
+
+#email,
+#nome,
+#mensagem {
+    background-color: #4c4c4c;
+    border-radius: 8px;
+    padding: 5px;
+    width: 540px;
+}
+
+#email::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#nome::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+#mensagem::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+#email,
+#nome {
+    height: 45px;
+}
+
+#mensagem {
+    height: 250px;
+}
+
+#enviar-bnt {
+    padding: 10px 20px;
+    background-color: #867b61;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    border-radius: 15px;
+    transition: ease 400ms;
+    border: none;
+    box-shadow: 0 2px 0px 0px black;
+    cursor: pointer;
+}
+
+#enviar-bnt:hover {
+    background-color: #796d53;
+    color: rgb(209, 209, 209);
+}
+
+.container-localizacao {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    padding-left: 40px;
+}
+
+.localizacao {
+    max-width: 580px;
+    text-align: start;
+}
+
+.localizacao h1 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.container-midias {
+    /* display: flex;
+    align-items: baseline; */
+    max-width: 1200px;
+}
+
+.midias h1 {
+    font-size: 30px;
+}
+
+.midias img {
+    width: 60px;
+}
+
+.footer-container {
+    background-color: #867b61;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.footer-section1 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-section1 .icons-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Reduzido para aproximar as imagens */
+    align-items: center;
+    margin-top: 0;
+}
+
+.footer-section1 .icons-footer img:first-child {
+    margin-top: 20px;
+}
+
+.footer-section1 p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.footer-section2 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    /* margin-left: 40px; */
+    margin-bottom: 50px;
+}
+
+.footer-section2 #tittle-footer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section2 #phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section2 #phone a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section2 #phone img {
+    width: 20px;
+}
+
+.footer-section3 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-left: 150px;
+}
+
+.footer-section3 #tittle-footer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section3 .social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#footer-name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#footer-name a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Política de privacidade */
+.privacy-policy-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.privacy-policy-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 750px;
+    width: 90%;
+    color: #333;
+    text-align: center;
+}
+
+.privacy-policy-content p {
+    text-align: start;
+}
+
+.privacy-policy-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.privacy-policy-content button:hover {
+    background-color: #555;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Desktop/PROJETO-LUCAS"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pag-coastal-care"
+	}
+}

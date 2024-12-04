@@ -1,0 +1,131 @@
+.header-container {
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #303030d2;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+li{
+    list-style-type: none;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+li a:hover {
+    color: #867b61;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+li.dropdown:hover {
+    color: #867b61;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1); 
+}
+
+.header-navbar {
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li.dropdown ul {
+    display: none; 
+    position: absolute;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+li.dropdown:hover ul {
+    display: block;
+}
+
+.dropdown-card {
+    display: none; 
+    position: fixed;
+    top: 57px;
+    right: 60px; 
+    background-color: #303030d2;
+    padding: 15px;
+    z-index: 998;
+    max-width: 410px; 
+    width: 150px;
+}
+
+.dropdown-card ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    text-align: left; 
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.dropdown-card li {
+    margin: 5px 0;
+}
+
+.dropdown-card li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* .dropdown-card li:hover {
+    transform: scale(1.05);
+} */
+
+.dropdown li:hover{
+    color: #867b61;
+}
+
+.dropdown-card li a:hover {
+    color: #867b61;
+}
+
+.dropdown-card.show {
+    display: block;
+}
+
+.toggle{
+    display: none;
+}
+
+/* .dropdown a:hover {
+    color: #867b61;
+    cursor: pointer;
+}
+
+#projects-button {
+    color: #867b61;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#projects-button:hover {
+    background-color: #ff0000;
+    transition: all 0.3s;
+} */

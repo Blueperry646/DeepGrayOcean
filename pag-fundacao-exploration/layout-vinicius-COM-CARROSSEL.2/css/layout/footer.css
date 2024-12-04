@@ -1,0 +1,161 @@
+.footer-container {
+    background-color: #867b61;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    height: 231px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.footer-section1 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-section1 .icons-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Reduzido para aproximar as imagens */
+    align-items: center;
+    margin-top: 0;
+}
+
+.footer-section1 .icons-footer img:first-child {
+    margin-top: 20px;
+}
+
+.footer-section1 p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.footer-section2 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    /* margin-left: 0px; */
+}
+
+.footer-section2 #tittle-footer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section2 #phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section2 #phone a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section2 #phone img {
+    width: 20px;
+}
+
+.footer-section3 {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.footer-section3 #tittle-footer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section3 .social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#footer-name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#footer-name a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Política de privacidade */
+.privacy-policy-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.privacy-policy-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 750px;
+    width: 90%;
+    color: #333;
+    text-align: center;
+}
+
+.privacy-policy-content p {
+    text-align: start;
+}
+
+.privacy-policy-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.privacy-policy-content button:hover {
+    background-color: #555;
+}
